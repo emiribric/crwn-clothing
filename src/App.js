@@ -10,9 +10,9 @@ function App() {
   return (
     <div>
       <Switch>
-        {/* <Route path="/crwn-clothing" exact>
-            <Redirect to="/" />
-        </Route> */}
+        <Route path="/" exact>
+            <Redirect to="/crwn-clothing/" />
+        </Route>
         <Route exact path="/crwn-clothing" component={HomePage} />
         <Route exact path="/crwn-clothing/shop" component={ShopPage} />
       </Switch>     
