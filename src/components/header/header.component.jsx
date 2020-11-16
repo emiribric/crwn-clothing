@@ -10,11 +10,11 @@ const Header = () => (
         <Link className='logo-container' to='/crwn-clothing'>
             <Logo className='logo' />
         </Link>
-        <div class='options'>
-            <Link class='option' to='crwn-clothing/shop'>
+        <div className='options'>
+            <Link className='option' to='crwn-clothing/shop'>
                 SHOP
             </Link>
-            <Link class='option' to='crwn-clothing/contact'>
+            <Link className='option' to='crwn-clothing/contact'>
                 CONTACT
             </Link>
         </div>
